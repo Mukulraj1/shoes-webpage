@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: white;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 35vw;
+}
+
+
+/* cart section */
+
+.brand_name {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.brand_name a {
+    width: 90px;
+    background-color: transparent;
+    color: black;
+    margin: 15px;
+}
+
+.brand_name a:hover {
+    background-color: black;
+}
+
+.shoes_grid img {
+    width: 80%;
+    height: auto;
+}
